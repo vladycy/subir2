@@ -1,0 +1,19 @@
+{
+  "name": "BotuploadFree 7.1",
+  "description": "BotuploadFree bot listo y preparado para subir a las nubes de cuba.",
+  "env": {
+    "administrador": {
+      "description": "Admin del bot",
+      "value": "Danny5367"
+    },
+    "bot_token": {
+      "description": "El token del bot",
+      "value": "5242972249:AAHdP7WkY44jY4_o9oz_DoQciFf4VWk61pU"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python.git"
+    }
+  ]
+}
